@@ -1,0 +1,18 @@
+Component: Correctness of adding an item to the cart
+
+Precondition: Go to https://www.ozon.ru/
+
+Steps
+1. Enter the required product in the search bar (Bicycles OLESYANEL)
+2. Click on a product
+3. Choose the right size (44)
+4. Select the state of the goods "New"
+5. Press the button "Add to cart"
+5. Select the quantity of goods (1 pc.)
+6. Go to the cart (cart icon in the upper right corner)
+7. We see the amount of 399 rubles.
+
+Expected Result
+OLESYANEL cycling shorts (size 44; "New" condition; price: 399 rub) were added to the cart in the amount of 1 pc. and the total amount of the order was 399 rub.
+
+*Next to the Cart icon, the number of items in the cart icon has been added/changed.
